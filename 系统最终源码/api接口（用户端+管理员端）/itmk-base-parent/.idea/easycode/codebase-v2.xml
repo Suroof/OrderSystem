@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/itmk-base-web/src/main/java/com/itmk/web/goods_comment/controller/GoodsCommentController.java;D:/Work/点餐系统/系统最终源码/api接口（用户端+管理员端）/itmk-base-parent/itmk-base-web/src/main/java/com/itmk/web/goods_comment/entity/CommentParm.java;D:/Work/点餐系统/系统最终源码/api接口（用户端+管理员端）/itmk-base-parent/itmk-base-web/src/main/java/com/itmk/web/goods_comment/entity/GoodsComment.java;D:/Work/点餐系统/系统最终源码/api接口（用户端+管理员端）/itmk-base-parent/itmk-base-web/src/main/java/com/itmk/web/goods_comment/mapper/GoodsCommentMapper.java;D:/Work/点餐系统/系统最终源码/api接口（用户端+管理员端）/itmk-base-parent/itmk-base-web/src/main/java/com/itmk/web/goods_comment/service/impl/GoodsCommentServiceImpl.java;D:/Work/点餐系统/系统最终源码/api接口（用户端+管理员端）/itmk-base-parent/itmk-base-web/src/main/java/com/itmk/web/goods_comment/service/GoodsCommentService.java" />
+  </component>
+</project>

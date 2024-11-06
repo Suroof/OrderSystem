@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "kimi.api",
+      "type": "com.itmk.config.KimiConfig",
+      "sourceType": "com.itmk.config.KimiConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "kimi.api.key",
+      "type": "java.lang.String",
+      "sourceType": "com.itmk.config.KimiConfig"
+    },
+    {
+      "name": "kimi.api.url",
+      "type": "java.lang.String",
+      "sourceType": "com.itmk.config.KimiConfig"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,57 @@
+# 端口号配置
+server:
+  port: 8089
+
+# Redis 配置
+spring:
+  redis:
+    host: localhost
+    port: 6379
+    password: 363388
+    lettuce:
+      pool:
+        max-active: 10
+        max-idle: 5
+        min-idle: 1
+        max-wait: -1ms
+
+  # 数据库连接配置
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/order-system?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+    username: root
+    password: 363388
+
+# MyBatis Plus 配置
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      # 配置 MyBatis Plus 在更新时只更新非空和非 NULL 的字段
+      update-strategy: not_empty
+
+# 图片上传
+web:
+  uploadpath: D:/images/ # 图片上传的路径
+  load-path: file:D://images/ # 图片访问、加载的路径，假设菜品的图片放在该路径下
+
+# API 配置
+kimi:
+  api:
+    key: sk-CipbFHHPYIgrqlPBW9PRhAWm9SYVMnC6a8ReSmrDOCmjxUpM
+    url: https://api.moonshot.cn/v1/chat/completions
+
+# 微信小程序相关
+Wechat:
+  Applets:
+    # 小程序 appID
+    appId: wx27abe3daef41f42f
+    # 小程序秘钥
+    appSecret: 47e31e79354ac65cb7854cd72ab57966
+
+# 日志配置
+logging:
+  pattern:
+    console: '%d{yyyy-MM-dd} [%thread] %-5level %logger - %msg%n'

@@ -1,0 +1,7 @@
+spring:
+  profiles:
+    active: test
+kimi:
+  api:
+    key: sk-CipbFHHPYIgrqlPBW9PRhAWm9SYVMnC6a8ReSmrDOCmjxUpM
+    url: https://api.moonshot.cn/v1/chat/completions
